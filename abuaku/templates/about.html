@@ -1,0 +1,56 @@
+{% extends '_format.html' %}
+
+{% block body %}
+		
+			<!-- Jumbotron -->
+			<div id="main-content" class="row">
+				<div class = "col-sm-12">
+					<div class="jumbotron jumbotron-fluid">
+						<div style="padding: 0 0 0 12px;" class="container">
+							<h1 id ="header" class = "text-muted" style="font-family: 'Mina', sans-serif; padding: 0 0 0 24px;"> >Contact</h1>
+							<hr>
+							<p style="font-family: 'Mina', sans-serif;">Contact Me</p>
+							<hr>
+							<!-- contact form -->
+							<form action="mailto:abuaku16@gmail.com" method="post" enctype="text/plain">
+							  <div class="form-group">
+							    <label for="exampleFormControlInput1">Email address</label>
+							    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+							  </div>
+							  <div class="form-group">
+							    <label for="exampleFormControlTextarea1">Message</label>
+							    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Enter message here..."></textarea>
+							  </div>
+							  <div class="form-group">
+							  	<button class="btn btn-button btn-primary">Submit</button>
+							  </div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<footer>&copy; Nathan Abuaku 2018</footer>
+			</div>
+
+
+		
+		{% endblock %}
+
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.js"></script>
+
+
+		<script>
+			$(function ()){
+				$('[data-toggle="tooltip"]').tooltip():
+			});
+		</script>
